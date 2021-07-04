@@ -17,10 +17,10 @@ class DataSeeder extends Seeder
 
         DB::table('data')->insert([
             'id' => Uuid::generate(),
-            'kanji' => '一',
-            'hiragana' => 'いち',
-            'romaji' => 'ichi',
-            'english' => 'One',
+            'kanji' => '.一',
+            'hiragana' => '.いち',
+            'romaji' => '.ichi',
+            'english' => '.One',
         ]);
 
         DB::table('data')->insert([
