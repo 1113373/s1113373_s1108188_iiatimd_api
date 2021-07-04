@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Webpatser\Uuid\Uuid;
+use App\Traits\Uuids;
 
 class DataSeeder extends Seeder
 {
@@ -182,7 +183,7 @@ class DataSeeder extends Seeder
             'romaji' => 'mizu',
             'english' => 'Water',
         ]);
-        
+
         DB::table('data')->insert([
             'id' => Uuid::generate(),
             'kanji' => '木',

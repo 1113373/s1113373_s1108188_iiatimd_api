@@ -21,6 +21,8 @@ class USersTableSeeder extends Seeder
             'id' => Uuid::generate(),
             'email' => 'matt@mail.com',
             'password' => bcrypt('123456'),
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
     }
 }
