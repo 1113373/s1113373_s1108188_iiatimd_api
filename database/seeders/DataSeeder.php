@@ -17,15 +17,15 @@ class DataSeeder extends Seeder
     public function run(){
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
-            'kanji' => '.一',
-            'hiragana' => '.いち',
-            'romaji' => '.ichi',
-            'english' => '.One',
+            'id' => 1,
+            'kanji' => '一',
+            'hiragana' => 'いち',
+            'romaji' => 'ichi',
+            'english' => 'One',
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 2,
             'kanji' => '二',
             'hiragana' => 'に',
             'romaji' => 'ni',
@@ -33,7 +33,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 3,
             'kanji' => '三',
             'hiragana' => 'さん',
             'romaji' => 'san',
@@ -41,7 +41,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 4,
             'kanji' => '四',
             'hiragana' => 'よん',
             'romaji' => 'yon',
@@ -49,7 +49,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 5,
             'kanji' => '五',
             'hiragana' => 'ご',
             'romaji' => 'go',
@@ -57,7 +57,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 6,
             'kanji' => '六',
             'hiragana' => 'ろく',
             'romaji' => 'roku',
@@ -65,7 +65,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 7,
             'kanji' => '七',
             'hiragana' => 'なな',
             'romaji' => 'nana',
@@ -73,7 +73,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 8,
             'kanji' => '八',
             'hiragana' => 'はち',
             'romaji' => 'hachi',
@@ -81,7 +81,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 9,
             'kanji' => '九',
             'hiragana' => 'きゅ',
             'romaji' => 'kyu',
@@ -89,7 +89,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 10,
             'kanji' => '十',
             'hiragana' => 'じゅう',
             'romaji' => 'juu',
@@ -97,7 +97,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 11,
             'kanji' => '百',
             'hiragana' => 'ひゃく',
             'romaji' => 'hyaku',
@@ -105,7 +105,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 12,
             'kanji' => '千',
             'hiragana' => 'せん',
             'romaji' => 'sen',
@@ -113,7 +113,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 13,
             'kanji' => '万',
             'hiragana' => 'まん',
             'romaji' => 'man',
@@ -121,7 +121,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 14,
             'kanji' => '円',
             'hiragana' => 'えん',
             'romaji' => 'en',
@@ -129,7 +129,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 15,
             'kanji' => '曜',
             'hiragana' => 'よう',
             'romaji' => 'you',
@@ -137,7 +137,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 16,
             'kanji' => '週',
             'hiragana' => 'しゅう',
             'romaji' => 'shuu',
@@ -145,7 +145,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 17,
             'kanji' => '年',
             'hiragana' => 'ねん',
             'romaji' => 'nen',
@@ -153,7 +153,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 18,
             'kanji' => '日',
             'hiragana' => 'ひ',
             'romaji' => 'hi',
@@ -161,7 +161,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 19,
             'kanji' => '月',
             'hiragana' => 'つき',
             'romaji' => 'tsuki',
@@ -169,7 +169,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 20,
             'kanji' => '火',
             'hiragana' => 'ひ',
             'romaji' => 'hi',
@@ -177,7 +177,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 21,
             'kanji' => '水',
             'hiragana' => 'みず',
             'romaji' => 'mizu',
@@ -185,7 +185,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 22,
             'kanji' => '木',
             'hiragana' => 'き',
             'romaji' => 'ki',
@@ -193,7 +193,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 23,
             'kanji' => '金',
             'hiragana' => 'きん',
             'romaji' => 'kin',
@@ -201,7 +201,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 24,
             'kanji' => '土',
             'hiragana' => 'つち',
             'romaji' => 'tsuchi',
@@ -209,7 +209,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 25,
             'kanji' => '午',
             'hiragana' => 'ご',
             'romaji' => 'go',
@@ -217,7 +217,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 26,
             'kanji' => '今',
             'hiragana' => 'いま',
             'romaji' => 'ima',
@@ -225,7 +225,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 27,
             'kanji' => '分',
             'hiragana' => 'ぶん',
             'romaji' => 'bun',
@@ -233,7 +233,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 28,
             'kanji' => '半',
             'hiragana' => 'はん',
             'romaji' => 'han',
@@ -241,7 +241,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 29,
             'kanji' => '毎',
             'hiragana' => 'まい',
             'romaji' => 'mai',
@@ -249,7 +249,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 30,
             'kanji' => '何',
             'hiragana' => 'なに',
             'romaji' => 'nani',
@@ -257,7 +257,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 31,
             'kanji' => '時',
             'hiragana' => 'とき',
             'romaji' => 'toki',
@@ -265,7 +265,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 32,
             'kanji' => '計',
             'hiragana' => 'けい',
             'romaji' => 'kei',
@@ -273,7 +273,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 33,
             'kanji' => '間',
             'hiragana' => 'かん、けん',
             'romaji' => 'kan, ken',
@@ -281,7 +281,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 34,
             'kanji' => '男',
             'hiragana' => 'おとこ',
             'romaji' => 'otoko',
@@ -289,7 +289,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 35,
             'kanji' => '女',
             'hiragana' => 'おんあ',
             'romaji' => 'onna',
@@ -297,7 +297,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 36,
             'kanji' => '父',
             'hiragana' => 'ちち',
             'romaji' => 'chichi',
@@ -305,7 +305,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 37,
             'kanji' => '母',
             'hiragana' => 'はは',
             'romaji' => 'haha',
@@ -313,7 +313,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 38,
             'kanji' => '子',
             'hiragana' => 'こ',
             'romaji' => 'ko',
@@ -321,7 +321,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 39,
             'kanji' => '友',
             'hiragana' => 'とも',
             'romaji' => 'tomo',
@@ -329,7 +329,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 40,
             'kanji' => '人',
             'hiragana' => 'ひと',
             'romaji' => 'hito',
@@ -337,7 +337,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 41,
             'kanji' => '手',
             'hiragana' => 'て',
             'romaji' => 'te',
@@ -345,7 +345,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 42,
             'kanji' => '目',
             'hiragana' => 'め',
             'romaji' => 'me',
@@ -353,7 +353,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 43,
             'kanji' => '足',
             'hiragana' => 'あし',
             'romaji' => 'ashi',
@@ -361,7 +361,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 44,
             'kanji' => '耳',
             'hiragana' => 'みみ',
             'romaji' => 'mimi',
@@ -369,7 +369,7 @@ class DataSeeder extends Seeder
         ]);
 
         DB::table('data')->insert([
-            'id' => Uuid::generate(),
+            'id' => 45,
             'kanji' => '口',
             'hiragana' => 'くち',
             'romaji' => 'kuchi',

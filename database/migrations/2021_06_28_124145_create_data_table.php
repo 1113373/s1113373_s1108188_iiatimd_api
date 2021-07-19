@@ -14,7 +14,7 @@ class CreateDataTable extends Migration
     public function up()
     {
         Schema::create('data', function (Blueprint $table) {
-            $table->foreignUuid('id');
+            $table->id('id')->unique();
             $table->String('kanji');
             $table->String('hiragana');
             $table->String('romaji');
